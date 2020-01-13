@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68783" started-at="2020-01-13T12:45:23Z" finished-at="2020-01-13T12:46:32Z">
+    <groups>
+    </groups>
+    <test name="CartTest" duration-ms="68783" started-at="2020-01-13T12:45:23Z" finished-at="2020-01-13T12:46:32Z">
+      <class name="addToCart.Mamacita">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:addToCart.Mamacita@dbf57b3]" name="initializeDriver" is-config="true" duration-ms="11187" started-at="2020-01-13T12:45:23Z" finished-at="2020-01-13T12:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="addMamacitaProductsToCart()[pri:0, instance:addToCart.Mamacita@dbf57b3]" name="addMamacitaProductsToCart" duration-ms="56267" started-at="2020-01-13T12:45:34Z" finished-at="2020-01-13T12:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMamacitaProductsToCart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:addToCart.Mamacita@dbf57b3]" name="teardown" is-config="true" duration-ms="1269" started-at="2020-01-13T12:46:31Z" finished-at="2020-01-13T12:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- addToCart.Mamacita -->
+    </test> <!-- CartTest -->
+  </suite> <!-- Suite -->
+</testng-results>
