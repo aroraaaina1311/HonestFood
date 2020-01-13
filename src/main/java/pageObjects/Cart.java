@@ -30,6 +30,7 @@ public class Cart {
 
 	//Getting Number of type of items added in cart
 	public int getNumberOfTypeOfItemsInCart() {
+		wait.until(ExpectedConditions.visibilityOfAllElements(ItemsInCart));
 		int count = ItemsInCart.size();
 		return count;
 

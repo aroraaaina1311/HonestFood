@@ -52,16 +52,17 @@ public class Mamacita extends base{
 		
 		//counting the no. of type of items added in the cart
 		int noOfTypeOfProductsInCart = cart.getNumberOfTypeOfItemsInCart();
-		if (noOfTypeOfProductsInCart == 5);
+		if (noOfTypeOfProductsInCart == 5)
 		{
 			Assert.assertTrue(true);
 		}
 		
 	}
 	
-
 	@AfterMethod
 	public void teardown() {
 		driver.quit();
 	}
+
+	
 }

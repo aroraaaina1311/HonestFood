@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="54213" started-at="2020-01-13T12:37:20Z" finished-at="2020-01-13T12:38:14Z">
+  <suite name="Suite" duration-ms="45706" started-at="2020-01-13T13:28:23Z" finished-at="2020-01-13T13:29:09Z">
     <groups>
     </groups>
-    <test name="CartTest" duration-ms="54213" started-at="2020-01-13T12:37:20Z" finished-at="2020-01-13T12:38:14Z">
+    <test name="CartTest" duration-ms="45706" started-at="2020-01-13T13:28:23Z" finished-at="2020-01-13T13:29:09Z">
       <class name="addToCart.Mamacita">
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:addToCart.Mamacita@4c583ecf]" name="initializeDriver" is-config="true" duration-ms="12918" started-at="2020-01-13T12:37:20Z" finished-at="2020-01-13T12:37:33Z">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:addToCart.Mamacita@4c583ecf]" name="initializeDriver" is-config="true" duration-ms="13214" started-at="2020-01-13T13:28:23Z" finished-at="2020-01-13T13:28:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="addMamacitaProductsToCart()[pri:0, instance:addToCart.Mamacita@4c583ecf]" name="addMamacitaProductsToCart" duration-ms="39953" started-at="2020-01-13T12:37:33Z" finished-at="2020-01-13T12:38:13Z">
+        <test-method status="PASS" signature="addMamacitaProductsToCart()[pri:0, instance:addToCart.Mamacita@4c583ecf]" name="addMamacitaProductsToCart" duration-ms="25855" started-at="2020-01-13T13:28:37Z" finished-at="2020-01-13T13:29:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMamacitaProductsToCart -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:addToCart.Mamacita@4c583ecf]" name="teardown" is-config="true" duration-ms="1284" started-at="2020-01-13T12:38:13Z" finished-at="2020-01-13T12:38:14Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:addToCart.Mamacita@4c583ecf]" name="teardown" is-config="true" duration-ms="6586" started-at="2020-01-13T13:29:03Z" finished-at="2020-01-13T13:29:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

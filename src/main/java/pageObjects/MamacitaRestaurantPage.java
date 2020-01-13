@@ -50,6 +50,7 @@ public class MamacitaRestaurantPage {
 	private WebElement addToCartButtonOnExtrasPopup;
 
 	public WebElement getAddressTextBoxPopUp() {
+		wait.until(ExpectedConditions.elementToBeClickable(addressTextBoxInPopup));
 		return addressTextBoxInPopup;
 	}
 
@@ -78,7 +79,7 @@ public class MamacitaRestaurantPage {
 			wait.until(ExpectedConditions.elementToBeClickable(firstItem.get(i)));
 			firstItem.get(i).click();
 			addToCartPopup.click();
-			js.executeScript("arguments[0].scrollTop = arguments[1];", addToCartPopup, 250);
+			js.executeScript("arguments[0].scrollTop = arguments[1];", addToCartPopup, 300);
 			addToCartButtonOnExtrasPopup.click();
 		}
 

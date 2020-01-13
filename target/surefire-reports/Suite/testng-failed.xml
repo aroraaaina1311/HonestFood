@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="CustomListeners.listeners"/>
   </listeners>
-  <test thread-count="5" name="CartTest(failed)">
+  <test thread-count="5" verbose="0" name="CartTest(failed)">
     <classes>
       <class name="addToCart.Mamacita">
         <methods>
           <include name="addMamacitaProductsToCart"/>
-          <include name="teardown"/>
           <include name="initializeDriver"/>
         </methods>
       </class> <!-- addToCart.Mamacita -->
