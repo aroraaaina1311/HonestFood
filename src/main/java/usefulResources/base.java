@@ -54,13 +54,7 @@ public class base {
 			driver = new FirefoxDriver();
 
 			// initialize internet explorer driver
-		} else if (browserName.equalsIgnoreCase("ie")) {
-			System.setProperty("webdriver.ie.driver",
-					System.getProperty("user.dir") + "\\src\\main\\java\\usefulResources\\IEDriverServer.exe");
-			driver = new InternetExplorerDriver();
-			// driver.manage().window().maximize();
 		}
-
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 
